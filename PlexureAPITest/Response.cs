@@ -32,7 +32,7 @@ namespace PlexureAPITest
 
         public void Expect(HttpStatusCode statusCode)
         {
-            Assert.AreEqual(StatusCode, statusCode);
+            Assert.AreEqual(statusCode,StatusCode);
         }
     }
 }

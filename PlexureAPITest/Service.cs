@@ -21,7 +21,7 @@ namespace PlexureAPITest
                   .Accept
                   .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            client.DefaultRequestHeaders.Add("token", "37cb9e58-99db-423c-9da5-42d5627614c5");
+            //client.DefaultRequestHeaders.Add("token", "37cb9e58-99db-423c-9da5-42d5627614c5");
         }
 
         public Response<UserEntity> Login(string username, string password)
